@@ -11,6 +11,7 @@ if [[ -n "$PS1" ]]; then
   alias ....="cd ../../.."
   alias .....="cd ../../../.."
   alias ......="cd ../../../../.."
+  alias v="vim"
   function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 	# don't put duplicate lines in the history. See bash(1) for more options
