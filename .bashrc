@@ -4,7 +4,6 @@
 
 # If not running interactively, don't do anything
 if [[ -n "$PS1" ]]; then
-  export CDPATH=/home/apocalyptiq/apps
   export PS1="\[\e[32;1m\]\w> \[\e[0m\]"
   alias ..="cd .."
   alias ...="cd ../.."
@@ -12,6 +11,8 @@ if [[ -n "$PS1" ]]; then
   alias .....="cd ../../../.."
   alias ......="cd ../../../../.."
   alias v="vim"
+  alias c="cd"
+  export CDPATH=/home/apocalyptiq/apps
   function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 	# don't put duplicate lines in the history. See bash(1) for more options
