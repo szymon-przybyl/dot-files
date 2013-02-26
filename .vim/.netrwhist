@@ -1,2 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/szymon/apps/zdjecieztoba/app/assets/stylesheets'
+let g:netrw_dirhist_2='/home/szymon/apps/backbone-tutorial/public/images'
+let g:netrw_dirhist_3='/home/szymon/apps'
+let g:netrw_dirhist_4='/usr/local/lib/ruby/gems/1.9.1/gems/carrierwave-0.7.0/lib/carrierwave/uploader'
