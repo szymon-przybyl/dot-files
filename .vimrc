@@ -39,5 +39,12 @@ set laststatus=2  " Always show status line.
 set mousehide  " Hide mouse after chars typed
 set mouse=a  " Mouse in all modes
 
-map <F2> :NERDTreeToggle<CR>
+map <F2> :tabprev<CR>
+map <F3> :tabnext<CR>
+map <F4> :tabnew<CR>
+map <F5> :tabedit 
+map <F6> :tabclose<CR>
+map <F7> :NERDTreeToggle<CR>
 let g:RspecBundlerExec = "true"
+
+call pathogen#infect()
