@@ -1,0 +1,11 @@
+[user]
+	name = Szymon Przybył
+	email = szymon.przybyl7@gmail.com
+[core]
+	excludesfile = /Users/szymon/.gitignore_global
+[push]
+	default = simple
+[color]
+ branch = auto
+ diff = auto
+ status = auto
